@@ -1,5 +1,69 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 33913628-3d5f-479a-8457-8aea08589134)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (title_block
+    (company "Jean-Christophe Gauthier")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 63.5 17.78) (size 43.18 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 61071422-3893-4967-aa06-fe0b95c458fc)
+    (property "Sheetname" "Power" (at 63.5 17.0684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 63.5 47.5746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Analog_Macropad_v02"
+        (path "/33913628-3d5f-479a-8457-8aea08589134" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 17.78 17.78) (size 39.37 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 98bfd490-db4e-4867-a12d-53e10a521dab)
+    (property "Sheetname" "Microcontroller" (at 17.78 17.0684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Microcontroller.kicad_sch" (at 17.78 47.5746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Analog_Macropad_v02"
+        (path "/33913628-3d5f-479a-8457-8aea08589134" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 111.76 17.78) (size 44.45 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ce06b6e5-26a8-4c4b-a843-204e5491b0be)
+    (property "Sheetname" "Analog Keys" (at 111.76 17.0684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Analog Keys.kicad_sch" (at 111.76 47.5746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Analog_Macropad_v02"
+        (path "/33913628-3d5f-479a-8457-8aea08589134" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

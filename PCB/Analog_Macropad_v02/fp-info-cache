@@ -1,4 +1,4 @@
-22355168309049537
+22355168569929892
 Analog_Macropad_v02
 2.6_GHz_Antenna
 
@@ -7,12 +7,12 @@ Analog_Macropad_v02
 2
 2
 Analog_Macropad_v02
-32kHz_Crystal
+Analog Mux
 
-SC32S-7PF20PPM 
+CD74HC4067SM96 
 0
-2
-2
+24
+24
 Analog_Macropad_v02
 ESP32-C3FH4
 
